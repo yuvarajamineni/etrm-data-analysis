@@ -27,3 +27,43 @@ It helps analyze trade datasets, generate reports, and visualize insights such a
   - Top 10 Highest Value Trade
 
 ---
+
+## 🛠️ Setup & Installation in VS Code
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/etrm-data-analytics.git
+   cd etrm-data-analytics
+   
+2. **Open in VS Code**
+   ```bash
+   Open the project folder
+
+3. **Create a virtual environment (optional but recommended)**
+   ```bash
+   python -m venv .venv
+   Activate it:
+   -Windows → .venv\Scripts\activate
+   -Mac/Linux → source .venv/bin/activate
+
+4. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+5. **Install Jupyter extension in VS Code**
+   ```bash
+   Go to Extensions (Ctrl+Shift+X)
+   Install Jupyter and Python extensions
+
+---
+
+## ▶️ Running the Project in VS Code
+- Open ETRM_Data_Analysis.ipynb inside VS Code.
+- Select Python interpreter from .venv. 
+- Run cells step by step (Shift + Enter) to:
+  -Load dataset
+  -Clean & analyze data
+  -Generate charts and insights
+  
+---
+   
