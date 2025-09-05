@@ -14,13 +14,15 @@ It helps analyze trade datasets, generate reports, and visualize insights such a
 ---
 
 ## 🚀 Features
-- **Multi-format Data Support** → CSV, Excel, JSON  
+- **Multi-format Data Support** → (CSV, JSON, Excel, TXT, HTML, XML)
 - **Exploratory Data Analysis** → Summary stats, correlations, aggregations  
 - **Visualization** → Charts & plots with Matplotlib/Seaborn  
 - **Insights** → Key metrics such as:
-  - Average price by commodity  
-  - Trade volume and trends over time  
-  - Currency distribution and exposure  
-  - Trader and counterparty concentration  
+  - Total Volume by Commodity
+  - Trades by Currency
+  - Distribution of Notional Values
+  - Commodity vs Tradetype(Total Volume)
+  - Periodicity Analysis
+  - Top 10 Highest Value Trade
 
 ---
