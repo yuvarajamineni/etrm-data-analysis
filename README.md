@@ -60,10 +60,7 @@ It helps analyze trade datasets, generate reports, and visualize insights such a
 ## ▶️ Running the Project in VS Code
 - Open ETRM_Data_Analysis.ipynb inside VS Code.
 - Select Python interpreter from .venv. 
-- Run cells step by step (Shift + Enter) to:
-  -Load dataset
-  -Clean & analyze data
-  -Generate charts and insights
+- Run cells step by step (Shift + Enter)
   
 ---
    
