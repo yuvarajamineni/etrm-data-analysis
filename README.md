@@ -1,36 +1,26 @@
-# ETRM Data Analysis Assignment
+# 📊 ETRM Data Analytics with Pandas
 
-## Quick Start
-1. **Install Python 3.10+**.
-2. Open a terminal in this folder and create a virtual env:
-   ```bash
-   python -m venv .venv
-   .venv/Scripts/activate  # Windows
-   # or
-   source .venv/bin/activate  # macOS/Linux
-   ```
-3. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Create a `data/` folder and place your six input files there:
-   - `etrm_trades.csv`
-   - `etrm_trades.json`
-   - `etrm_trades.xlsx`
-   - `etrm_trades.txt`
-   - `etrm_trades.html`
-   - `etrm_trades.xml`
+This project is a **data analytics solution for Energy Trade and Risk Management (ETRM)** built with **Python and Pandas**.  
+It helps analyze trade datasets, generate reports, and visualize insights such as commodity trends, currency exposure, and counterparty performance.
 
-5. **Run the script**:
-   ```bash
-   python analysis.py
-   ```
+---
 
-6. Check outputs:
-   - Figures in `figs/`
-   - `data/combined.parquet`
+## 📌 Objectives
+- Load and process ETRM trade datasets
+- Perform exploratory data analysis (EDA) using Pandas
+- Create visualizations for trading insights
+- Provide business-level insights into commodities, currencies, traders, and counterparties
 
-## What to submit
-- Your updated `analysis.py` (or a Jupyter Notebook).
-- Plots (5+).
-- A short **Summary** (`summary.md` or PDF) with key insights.
+---
+
+## 🚀 Features
+- **Multi-format Data Support** → CSV, Excel, JSON  
+- **Exploratory Data Analysis** → Summary stats, correlations, aggregations  
+- **Visualization** → Charts & plots with Matplotlib/Seaborn  
+- **Insights** → Key metrics such as:
+  - Average price by commodity  
+  - Trade volume and trends over time  
+  - Currency distribution and exposure  
+  - Trader and counterparty concentration  
+
+---
